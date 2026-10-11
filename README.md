@@ -2,7 +2,7 @@
 
 **Create a world full of stories.**
 
-Phase 10 prepares the public beta for GitHub and Vercel. Publishing has been approved. See [the publication record](docs/PUBLIC_BETA.md) for deployment status and live verification, and [the deployment guide](docs/DEPLOYMENT.md) for commands, hosting settings and backup transfer instructions.
+**Public beta: [townieverse.vercel.app](https://townieverse.vercel.app).** Source: [FridaRod03/townieverse](https://github.com/FridaRod03/townieverse). See [the publication record](docs/PUBLIC_BETA.md) for deployment status and live verification, and [the deployment guide](docs/DEPLOYMENT.md) for commands, hosting settings and backup transfer instructions.
 
 A personal React + TypeScript project for an unofficial Sims 4 storytelling tool. Phase 9 adds a profile-scoped Character Relationship Web with an interactive board, accessible list and relationship backups. Phase 8 added a World Population Tracker with local save-file planning profiles and household assignments. Phase 7 expanded the curated content and searchable aesthetic directory. The six generators retain the local Casting Board, creation tracking, and JSON/TXT backups. Official game fields, original stories, and fashion guidance are individually classified. See [CONTENT_STATUS.md](CONTENT_STATUS.md) for exact library counts and gaps, and [Casting Board documentation](docs/CASTING_BOARD.md) for saving and recovery.
 
