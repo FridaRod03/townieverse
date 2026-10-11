@@ -1,0 +1,17 @@
+node_modules/
+.npm-cache/
+dist/
+*.tsbuildinfo
+coverage/
+.env
+.env.*
+!.env.example
+*.local
+.vercel/
+*.log
+.DS_Store
+Thumbs.db
+backups/
+*.pem
+*.key
+*.p12

@@ -1,0 +1,206 @@
+.relationship-page {
+  padding: 40px 0 70px;
+}
+.relationship-page label {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0;
+}
+.relationship-page input,
+.relationship-page select,
+.relationship-page textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--text);
+  background: var(--surface);
+  font: inherit;
+}
+.relationship-page input[type='checkbox'] {
+  width: auto;
+}
+.relationship-page .web-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.web-panel {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 18px;
+  padding: 22px;
+  margin: 22px 0;
+  overflow-wrap: anywhere;
+}
+.web-panel summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.web-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 0 18px;
+}
+.web-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+.web-toolbar button {
+  min-height: 44px;
+}
+.relationship-canvas {
+  position: relative;
+  height: 520px;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid var(--line);
+  border-radius: 20px;
+  background-color: var(--soft);
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 20px 20px;
+  touch-action: none;
+}
+.graph-transform {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+.character-node {
+  position: absolute;
+  width: 210px;
+  min-height: 110px;
+  display: grid;
+  text-align: left;
+  gap: 5px;
+  padding: 14px;
+  font: inherit;
+  font-size: 13px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--accent);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  pointer-events: auto;
+  touch-action: none;
+  cursor: grab;
+  overflow-wrap: anywhere;
+}
+.character-node strong {
+  font-size: 16px;
+}
+.character-node.selected {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.relationship-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  overflow: visible;
+}
+.relationship-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  overflow: visible;
+}
+.connection-label {
+  pointer-events: auto;
+  cursor: pointer;
+}
+.connection-label rect {
+  fill: var(--surface);
+  stroke: var(--line);
+}
+.connection-label text {
+  fill: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+}
+.connection-line {
+  pointer-events: stroke;
+  cursor: pointer;
+}
+.connection-line line {
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+.connection-line.romance line {
+  stroke-width: 6;
+}
+.connection-line.friendship line {
+  stroke-dasharray: 12 7;
+}
+.connection-line.conflict line {
+  stroke-dasharray: 3 7;
+  stroke-linecap: round;
+}
+.connection-line.other line {
+  stroke-width: 2;
+}
+.connection-line.selected line {
+  stroke: var(--text);
+  stroke-width: 8;
+}
+.connection-line:focus {
+  outline: 3px solid var(--accent);
+}
+.connection-line text {
+  fill: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: var(--surface);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+  pointer-events: auto;
+}
+.graph-legend {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.web-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 16px;
+}
+.web-list article,
+.relationship-list-item {
+  padding: 18px;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  margin: 12px 0;
+  background: var(--soft);
+}
+.household-web-link {
+  padding: 12px 0;
+}
+@media (max-width: 760px) {
+  .web-panel {
+    padding: 16px;
+  }
+  .relationship-canvas {
+    height: 460px;
+  }
+  .relationship-page {
+    padding-top: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .character-node,
+  .graph-transform {
+    transition: none;
+  }
+}

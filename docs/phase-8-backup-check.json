@@ -1,0 +1,1118 @@
+{
+  "format": "townieverse-planning",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-11T00:35:50.080Z",
+  "selectedProfileId": "fbc55187-457c-460f-9ef8-d62d62cd65f2",
+  "profiles": [
+    {
+      "id": "531bdeb9-1631-4983-a7bd-b4aeacdbab2b",
+      "name": "My Blank Save",
+      "description": "",
+      "createdAt": "2026-10-11T00:33:42.970Z",
+      "modifiedAt": "2026-10-11T00:35:02.243Z",
+      "assignments": [
+        {
+          "worldId": "library:world:moonwood-mill",
+          "neighborhoodId": "library:neighborhood:moonwood-mill:moonwood-mill",
+          "lotId": "custom-plan:4897342a-48d1-4653-8942-a3700bc7db0e",
+          "arrangement": "Shared photography studio",
+          "notes": "Keep space for an elder neighbor.",
+          "placed": true,
+          "householdId": "8e76d50e-07f7-452a-9ac6-98d70163a591",
+          "household": {
+            "id": "8e76d50e-07f7-452a-9ac6-98d70163a591",
+            "type": "household",
+            "title": "The after-hours photo editors",
+            "content": {
+              "snapshot": {
+                "world": {
+                  "id": "starter:world:arcade",
+                  "name": "Silver Arcade",
+                  "description": "A fictional city save concept: tiny apartments, creative workshops, and late-night diners.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": [],
+                  "tags": ["urban", "y2k"],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "worldType": "residential",
+                  "neighborhoods": [
+                    {
+                      "id": "starter:neighborhood:arcade:0",
+                      "name": "Studio District",
+                      "description": "A fictional neighborhood for your custom save.",
+                      "origin": "roleplay",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "not-applicable",
+                        "sources": []
+                      },
+                      "categories": [],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "worldId": "starter:world:arcade"
+                    },
+                    {
+                      "id": "starter:neighborhood:arcade:1",
+                      "name": "Neon Square",
+                      "description": "A fictional neighborhood for your custom save.",
+                      "origin": "roleplay",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "not-applicable",
+                        "sources": []
+                      },
+                      "categories": [],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "worldId": "starter:world:arcade"
+                    }
+                  ],
+                  "lots": []
+                },
+                "household": {
+                  "id": "household:library:household:the-after-hours-photo-editors",
+                  "promptId": "library:household:the-after-hours-photo-editors",
+                  "category": "adult-only",
+                  "members": [
+                    {
+                      "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                      "slotId": "library:household:the-after-hours-photo-editors:slot:0",
+                      "name": "Adult housemate",
+                      "age": "adult",
+                      "occult": "human",
+                      "requiredPacks": []
+                    },
+                    {
+                      "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                      "slotId": "library:household:the-after-hours-photo-editors:slot:1",
+                      "name": "Adult housemate",
+                      "age": "young-adult",
+                      "occult": "human",
+                      "requiredPacks": []
+                    }
+                  ],
+                  "dynamics": [
+                    {
+                      "id": "dynamic:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:tie:0",
+                      "fromId": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                      "toId": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                      "kind": "roommates"
+                    }
+                  ],
+                  "financialSituation": "modest",
+                  "livingArrangement": "Shared rental",
+                  "backstory": "Adult housemates edit photography projects late at night while separating paid work from collaborative experiments.",
+                  "adultOnly": true,
+                  "storylines": []
+                },
+                "sims": [
+                  {
+                    "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                    "name": "Adult housemate",
+                    "age": "adult",
+                    "aspiration": {
+                      "id": "library:aspiration:bestselling-author",
+                      "name": "Bestselling Author",
+                      "description": "Official base-game aspiration: Bestselling Author.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["aspiration"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                      "traitRequirements": []
+                    },
+                    "personality": {
+                      "profile": {
+                        "id": "library:background:the-careful-storyteller",
+                        "name": "The careful storyteller",
+                        "description": "A misunderstanding about a family story taught this Sim to distinguish what they remember from what they merely heard.",
+                        "origin": "roleplay",
+                        "requiredPacks": [],
+                        "verification": {
+                          "status": "not-applicable",
+                          "sources": []
+                        },
+                        "categories": ["background"],
+                        "tags": ["all"],
+                        "weight": 1,
+                        "commonness": 0.7,
+                        "adultOnly": false,
+                        "themes": [],
+                        "allowedAges": [
+                          "child",
+                          "teen",
+                          "young-adult",
+                          "adult",
+                          "elder"
+                        ],
+                        "hobbies": ["Journaling", "Recording interviews"],
+                        "likes": ["Journaling", "Recording interviews"],
+                        "dislikes": [],
+                        "personalGoal": "Preserve one story with permission.",
+                        "flaw": "Interrupts stories to correct small details",
+                        "personalitySuggestions": ["Thoughtful", "Precise"],
+                        "careerSuggestions": ["Writer"]
+                      },
+                      "traits": [
+                        {
+                          "id": "library:trait:gloomy",
+                          "name": "Gloomy",
+                          "description": "Official selectable personality trait: Gloomy. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:cheerful",
+                            "library:trait:hot-headed"
+                          ]
+                        },
+                        {
+                          "id": "library:trait:family-oriented",
+                          "name": "Family-Oriented",
+                          "description": "Official selectable personality trait: Family-Oriented. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:noncommittal",
+                            "library:trait:hates-children"
+                          ]
+                        },
+                        {
+                          "id": "starter:trait:1",
+                          "name": "Restless maker",
+                          "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                          "origin": "roleplay",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "not-applicable",
+                            "sources": []
+                          },
+                          "categories": [],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": [
+                            "child",
+                            "teen",
+                            "young-adult",
+                            "adult",
+                            "elder"
+                          ],
+                          "conflictsWith": []
+                        }
+                      ],
+                      "hobbies": ["Journaling", "Recording interviews"],
+                      "likes": ["Journaling", "Recording interviews"],
+                      "dislikes": [],
+                      "personalGoal": "Preserve one story with permission.",
+                      "flaw": "Interrupts stories to correct small details"
+                    },
+                    "career": {
+                      "id": "library:career:babysitter",
+                      "name": "Babysitter",
+                      "description": "Official part-time job: Babysitter.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://help.ea.com/en/articles/the-sims/the-sims-4/babysitter-career/"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["part-time"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                      "kind": "part-time"
+                    },
+                    "storylines": []
+                  },
+                  {
+                    "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                    "name": "Adult housemate",
+                    "age": "young-adult",
+                    "aspiration": {
+                      "id": "library:aspiration:angling-ace",
+                      "name": "Angling Ace",
+                      "description": "Official aspiration: Angling Ace. Goals and milestones are available in the reference guide.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://www.carls-sims-4-guide.com/aspirations/"
+                        ],
+                        "notes": "Name and pack checked 2026-10-10. Adult generation is conservative; teen selection may exist in-game. These are aspirations, not guarantees that milestones can be completed at every age."
+                      },
+                      "categories": ["aspiration"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["young-adult", "adult", "elder"],
+                      "traitRequirements": []
+                    },
+                    "personality": {
+                      "profile": {
+                        "id": "library:background:the-queer-community-organizer",
+                        "name": "The queer community organizer",
+                        "description": "Helping create welcoming queer community spaces taught this Sim to balance celebration with practical access and sustainable volunteering.",
+                        "origin": "roleplay",
+                        "requiredPacks": [],
+                        "verification": {
+                          "status": "not-applicable",
+                          "sources": []
+                        },
+                        "categories": ["background"],
+                        "tags": ["adult"],
+                        "weight": 1,
+                        "commonness": 0.7,
+                        "adultOnly": false,
+                        "themes": [],
+                        "allowedAges": ["young-adult", "adult", "elder"],
+                        "hobbies": ["Event planning", "Designing flyers"],
+                        "likes": ["Event planning", "Designing flyers"],
+                        "dislikes": [],
+                        "personalGoal": "Share organizing responsibility with a team.",
+                        "flaw": "Treats every request as urgent",
+                        "personalitySuggestions": ["Welcoming", "Pragmatic"],
+                        "careerSuggestions": ["Community work"]
+                      },
+                      "traits": [
+                        {
+                          "id": "library:trait:art-lover",
+                          "name": "Art Lover",
+                          "description": "Official base-game personality trait: Art Lover.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf",
+                              "https://sims.fandom.com/wiki/Trait_conflict"
+                            ],
+                            "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": [
+                            "teen",
+                            "young-adult",
+                            "adult",
+                            "elder"
+                          ],
+                          "conflictsWith": []
+                        },
+                        {
+                          "id": "library:trait:bro",
+                          "name": "Bro",
+                          "description": "Official selectable personality trait: Bro. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": []
+                        },
+                        {
+                          "id": "library:trait:hates-children",
+                          "name": "Hates Children",
+                          "description": "Official selectable personality trait: Hates Children. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:childish",
+                            "library:trait:family-oriented"
+                          ]
+                        }
+                      ],
+                      "hobbies": ["Event planning", "Designing flyers"],
+                      "likes": ["Event planning", "Designing flyers"],
+                      "dislikes": [],
+                      "personalGoal": "Share organizing responsibility with a team.",
+                      "flaw": "Treats every request as urgent"
+                    },
+                    "career": {
+                      "id": "library:career:athlete",
+                      "name": "Athlete",
+                      "description": "Official career: Athlete.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://help.ea.com/en/articles/the-sims/the-sims-4/the-sims-4-athlete-career/"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["career"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["young-adult", "adult", "elder"],
+                      "kind": "career"
+                    },
+                    "storylines": []
+                  }
+                ],
+                "aesthetic": {
+                  "id": "library:aesthetic:hime-gyaru",
+                  "name": "Hime Gyaru",
+                  "description": "Princess-inspired glam with ornate coordination and lavish beauty styling.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "verified",
+                    "sources": ["https://www.fun-japan.jp/en/articles/12779"],
+                    "notes": "Terminology checked 2026-10-10; clothing, beauty, ages, and worlds are original CAS interpretations, not community rules."
+                  },
+                  "categories": ["Formal"],
+                  "tags": ["romantic", "luxury", "japanese-streetwear"],
+                  "weight": 1,
+                  "commonness": 0.25,
+                  "adultOnly": false,
+                  "themes": [],
+                  "allowedAges": [
+                    "child",
+                    "teen",
+                    "young-adult",
+                    "adult",
+                    "elder"
+                  ],
+                  "aliases": ["Hime Gal"],
+                  "styleType": "established",
+                  "rarity": "rare",
+                  "category": "Formal",
+                  "worldAssociations": [
+                    "library:world:forgotten-hollow",
+                    "library:world:del-sol-valley",
+                    "library:world:tartosa",
+                    "library:world:ciudad-enamorada",
+                    "library:world:ondarion"
+                  ],
+                  "suggestedAges": [
+                    "child",
+                    "teen",
+                    "young-adult",
+                    "adult",
+                    "elder"
+                  ],
+                  "casSuggestions": [
+                    "Ruffled coordinated dress",
+                    "Lace-trimmed cardigan"
+                  ],
+                  "hairSuggestions": ["Large curled updo"],
+                  "makeupSuggestions": ["Soft pink glam makeup"],
+                  "accessories": ["Bow accessories"],
+                  "wildcard": false,
+                  "culturalContext": "A Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement."
+                },
+                "neighborhood": {
+                  "id": "starter:neighborhood:arcade:1",
+                  "name": "Neon Square",
+                  "description": "A fictional neighborhood for your custom save.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": [],
+                  "tags": [],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "worldId": "starter:world:arcade"
+                },
+                "seed": "161ddb60-1141-4cda-89fc-c2154d56d9cd",
+                "iteration": 0,
+                "generatedTitle": "The after-hours photo editors"
+              },
+              "text": "The after-hours photo editors\n\nTownieverse · authored household concept (roleplay)\n\nSeed: 161ddb60-1141-4cda-89fc-c2154d56d9cd · Roll 1\n\nWorld: Silver Arcade (fictional save concept)\n\nNeighborhood: Neon Square\n\nLot: No verified or custom lot selected\n\nAdult Only · 2 Sims\n\nFinances: modest\n\nHome: Shared rental\n\nAdult housemates edit photography projects late at night while separating paid work from collaborative experiments.\n\nAdult housemate · Adult (authored character concept)\nTraits: Gloomy (official), Family-Oriented (official), Restless maker (roleplay)\nAspiration: Bestselling Author (official)\nOccupation: Babysitter (official)\nPersonality: A misunderstanding about a family story taught this Sim to distinguish what they remember from what they merely heard.\nHobbies: Journaling, Recording interviews\nLikes: Journaling, Recording interviews\nDislikes: \nGoal: Preserve one story with permission.\nFlaw: Interrupts stories to correct small details\n\nAdult housemate · Young Adult (authored character concept)\nTraits: Art Lover (official), Bro (official), Hates Children (official)\nAspiration: Angling Ace (official)\nOccupation: Athlete (official)\nPersonality: Helping create welcoming queer community spaces taught this Sim to balance celebration with practical access and sustainable volunteering.\nHobbies: Event planning, Designing flyers\nLikes: Event planning, Designing flyers\nDislikes: \nGoal: Share organizing responsibility with a team.\nFlaw: Treats every request as urgent\n\nAdult housemate → Adult housemate: Roommates\n\nHime Gyaru\nFormal · authored styling guide\nPrincess-inspired glam with ornate coordination and lavish beauty styling.\n• Ruffled coordinated dress\n• Lace-trimmed cardigan\nHair: Large curled updo\nOptional makeup: Soft pink glam makeup\nAccessory: Bow accessories\nA Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement.",
+              "members": [
+                {
+                  "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                  "name": "Adult housemate"
+                },
+                {
+                  "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                  "name": "Adult housemate"
+                }
+              ]
+            },
+            "world": "Silver Arcade",
+            "notes": "",
+            "tags": [],
+            "status": "Idea",
+            "memberProgress": {
+              "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0": "Placed in World",
+              "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1": "Placed in World"
+            },
+            "favorite": false,
+            "createdAt": "2026-10-11T00:34:10.057Z",
+            "modifiedAt": "2026-10-11T00:35:02.501Z"
+          }
+        }
+      ],
+      "customLots": [
+        {
+          "id": "custom-plan:4897342a-48d1-4653-8942-a3700bc7db0e",
+          "name": "Photo Studio Annex",
+          "worldId": "library:world:moonwood-mill",
+          "neighborhoodId": "library:neighborhood:moonwood-mill:moonwood-mill",
+          "lotType": "Residential",
+          "description": "A user-authored studio build; dimensions intentionally unspecified."
+        }
+      ],
+      "worldNotes": {
+        "library:world:moonwood-mill": "Add an elder household near the forest."
+      },
+      "neighborhoodNotes": {}
+    },
+    {
+      "id": "fbc55187-457c-460f-9ef8-d62d62cd65f2",
+      "name": "Occult Save",
+      "description": "Demonstration plan: add more elderly residents.",
+      "createdAt": "2026-10-11T00:35:19.123Z",
+      "modifiedAt": "2026-10-11T00:35:21.437Z",
+      "assignments": [
+        {
+          "worldId": "library:world:moonwood-mill",
+          "neighborhoodId": "library:neighborhood:moonwood-mill:moonwood-mill",
+          "lotId": "custom-plan:4897342a-48d1-4653-8942-a3700bc7db0e",
+          "arrangement": "Shared photography studio",
+          "notes": "Keep space for an elder neighbor.",
+          "placed": true,
+          "householdId": "8e76d50e-07f7-452a-9ac6-98d70163a591",
+          "household": {
+            "id": "8e76d50e-07f7-452a-9ac6-98d70163a591",
+            "type": "household",
+            "title": "The after-hours photo editors",
+            "content": {
+              "snapshot": {
+                "world": {
+                  "id": "starter:world:arcade",
+                  "name": "Silver Arcade",
+                  "description": "A fictional city save concept: tiny apartments, creative workshops, and late-night diners.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": [],
+                  "tags": ["urban", "y2k"],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "worldType": "residential",
+                  "neighborhoods": [
+                    {
+                      "id": "starter:neighborhood:arcade:0",
+                      "name": "Studio District",
+                      "description": "A fictional neighborhood for your custom save.",
+                      "origin": "roleplay",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "not-applicable",
+                        "sources": []
+                      },
+                      "categories": [],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "worldId": "starter:world:arcade"
+                    },
+                    {
+                      "id": "starter:neighborhood:arcade:1",
+                      "name": "Neon Square",
+                      "description": "A fictional neighborhood for your custom save.",
+                      "origin": "roleplay",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "not-applicable",
+                        "sources": []
+                      },
+                      "categories": [],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "worldId": "starter:world:arcade"
+                    }
+                  ],
+                  "lots": []
+                },
+                "household": {
+                  "id": "household:library:household:the-after-hours-photo-editors",
+                  "promptId": "library:household:the-after-hours-photo-editors",
+                  "category": "adult-only",
+                  "members": [
+                    {
+                      "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                      "slotId": "library:household:the-after-hours-photo-editors:slot:0",
+                      "name": "Adult housemate",
+                      "age": "adult",
+                      "occult": "human",
+                      "requiredPacks": []
+                    },
+                    {
+                      "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                      "slotId": "library:household:the-after-hours-photo-editors:slot:1",
+                      "name": "Adult housemate",
+                      "age": "young-adult",
+                      "occult": "human",
+                      "requiredPacks": []
+                    }
+                  ],
+                  "dynamics": [
+                    {
+                      "id": "dynamic:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:tie:0",
+                      "fromId": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                      "toId": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                      "kind": "roommates"
+                    }
+                  ],
+                  "financialSituation": "modest",
+                  "livingArrangement": "Shared rental",
+                  "backstory": "Adult housemates edit photography projects late at night while separating paid work from collaborative experiments.",
+                  "adultOnly": true,
+                  "storylines": []
+                },
+                "sims": [
+                  {
+                    "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                    "name": "Adult housemate",
+                    "age": "adult",
+                    "aspiration": {
+                      "id": "library:aspiration:bestselling-author",
+                      "name": "Bestselling Author",
+                      "description": "Official base-game aspiration: Bestselling Author.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["aspiration"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                      "traitRequirements": []
+                    },
+                    "personality": {
+                      "profile": {
+                        "id": "library:background:the-careful-storyteller",
+                        "name": "The careful storyteller",
+                        "description": "A misunderstanding about a family story taught this Sim to distinguish what they remember from what they merely heard.",
+                        "origin": "roleplay",
+                        "requiredPacks": [],
+                        "verification": {
+                          "status": "not-applicable",
+                          "sources": []
+                        },
+                        "categories": ["background"],
+                        "tags": ["all"],
+                        "weight": 1,
+                        "commonness": 0.7,
+                        "adultOnly": false,
+                        "themes": [],
+                        "allowedAges": [
+                          "child",
+                          "teen",
+                          "young-adult",
+                          "adult",
+                          "elder"
+                        ],
+                        "hobbies": ["Journaling", "Recording interviews"],
+                        "likes": ["Journaling", "Recording interviews"],
+                        "dislikes": [],
+                        "personalGoal": "Preserve one story with permission.",
+                        "flaw": "Interrupts stories to correct small details",
+                        "personalitySuggestions": ["Thoughtful", "Precise"],
+                        "careerSuggestions": ["Writer"]
+                      },
+                      "traits": [
+                        {
+                          "id": "library:trait:gloomy",
+                          "name": "Gloomy",
+                          "description": "Official selectable personality trait: Gloomy. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:cheerful",
+                            "library:trait:hot-headed"
+                          ]
+                        },
+                        {
+                          "id": "library:trait:family-oriented",
+                          "name": "Family-Oriented",
+                          "description": "Official selectable personality trait: Family-Oriented. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:noncommittal",
+                            "library:trait:hates-children"
+                          ]
+                        },
+                        {
+                          "id": "starter:trait:1",
+                          "name": "Restless maker",
+                          "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                          "origin": "roleplay",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "not-applicable",
+                            "sources": []
+                          },
+                          "categories": [],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": [
+                            "child",
+                            "teen",
+                            "young-adult",
+                            "adult",
+                            "elder"
+                          ],
+                          "conflictsWith": []
+                        }
+                      ],
+                      "hobbies": ["Journaling", "Recording interviews"],
+                      "likes": ["Journaling", "Recording interviews"],
+                      "dislikes": [],
+                      "personalGoal": "Preserve one story with permission.",
+                      "flaw": "Interrupts stories to correct small details"
+                    },
+                    "career": {
+                      "id": "library:career:babysitter",
+                      "name": "Babysitter",
+                      "description": "Official part-time job: Babysitter.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://help.ea.com/en/articles/the-sims/the-sims-4/babysitter-career/"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["part-time"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                      "kind": "part-time"
+                    },
+                    "storylines": []
+                  },
+                  {
+                    "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                    "name": "Adult housemate",
+                    "age": "young-adult",
+                    "aspiration": {
+                      "id": "library:aspiration:angling-ace",
+                      "name": "Angling Ace",
+                      "description": "Official aspiration: Angling Ace. Goals and milestones are available in the reference guide.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://www.carls-sims-4-guide.com/aspirations/"
+                        ],
+                        "notes": "Name and pack checked 2026-10-10. Adult generation is conservative; teen selection may exist in-game. These are aspirations, not guarantees that milestones can be completed at every age."
+                      },
+                      "categories": ["aspiration"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["young-adult", "adult", "elder"],
+                      "traitRequirements": []
+                    },
+                    "personality": {
+                      "profile": {
+                        "id": "library:background:the-queer-community-organizer",
+                        "name": "The queer community organizer",
+                        "description": "Helping create welcoming queer community spaces taught this Sim to balance celebration with practical access and sustainable volunteering.",
+                        "origin": "roleplay",
+                        "requiredPacks": [],
+                        "verification": {
+                          "status": "not-applicable",
+                          "sources": []
+                        },
+                        "categories": ["background"],
+                        "tags": ["adult"],
+                        "weight": 1,
+                        "commonness": 0.7,
+                        "adultOnly": false,
+                        "themes": [],
+                        "allowedAges": ["young-adult", "adult", "elder"],
+                        "hobbies": ["Event planning", "Designing flyers"],
+                        "likes": ["Event planning", "Designing flyers"],
+                        "dislikes": [],
+                        "personalGoal": "Share organizing responsibility with a team.",
+                        "flaw": "Treats every request as urgent",
+                        "personalitySuggestions": ["Welcoming", "Pragmatic"],
+                        "careerSuggestions": ["Community work"]
+                      },
+                      "traits": [
+                        {
+                          "id": "library:trait:art-lover",
+                          "name": "Art Lover",
+                          "description": "Official base-game personality trait: Art Lover.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf",
+                              "https://sims.fandom.com/wiki/Trait_conflict"
+                            ],
+                            "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": [
+                            "teen",
+                            "young-adult",
+                            "adult",
+                            "elder"
+                          ],
+                          "conflictsWith": []
+                        },
+                        {
+                          "id": "library:trait:bro",
+                          "name": "Bro",
+                          "description": "Official selectable personality trait: Bro. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": []
+                        },
+                        {
+                          "id": "library:trait:hates-children",
+                          "name": "Hates Children",
+                          "description": "Official selectable personality trait: Hates Children. Consult the source for gameplay effects.",
+                          "origin": "official",
+                          "requiredPacks": [],
+                          "verification": {
+                            "status": "verified",
+                            "sources": [
+                              "https://www.carls-sims-4-guide.com/traits/"
+                            ],
+                            "notes": "Name, pack, and conflicts within this supported subset checked 2026-10-10. Adult availability is intentionally conservative; child/teen availability requires further research."
+                          },
+                          "categories": ["personality-trait"],
+                          "tags": [],
+                          "weight": 1,
+                          "commonness": 0.7,
+                          "adultOnly": false,
+                          "themes": [],
+                          "allowedAges": ["young-adult", "adult", "elder"],
+                          "conflictsWith": [
+                            "library:trait:childish",
+                            "library:trait:family-oriented"
+                          ]
+                        }
+                      ],
+                      "hobbies": ["Event planning", "Designing flyers"],
+                      "likes": ["Event planning", "Designing flyers"],
+                      "dislikes": [],
+                      "personalGoal": "Share organizing responsibility with a team.",
+                      "flaw": "Treats every request as urgent"
+                    },
+                    "career": {
+                      "id": "library:career:athlete",
+                      "name": "Athlete",
+                      "description": "Official career: Athlete.",
+                      "origin": "official",
+                      "requiredPacks": [],
+                      "verification": {
+                        "status": "verified",
+                        "sources": [
+                          "https://help.ea.com/en/articles/the-sims/the-sims-4/the-sims-4-athlete-career/"
+                        ],
+                        "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                      },
+                      "categories": ["career"],
+                      "tags": [],
+                      "weight": 1,
+                      "commonness": 0.7,
+                      "adultOnly": false,
+                      "themes": [],
+                      "allowedAges": ["young-adult", "adult", "elder"],
+                      "kind": "career"
+                    },
+                    "storylines": []
+                  }
+                ],
+                "aesthetic": {
+                  "id": "library:aesthetic:hime-gyaru",
+                  "name": "Hime Gyaru",
+                  "description": "Princess-inspired glam with ornate coordination and lavish beauty styling.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "verified",
+                    "sources": ["https://www.fun-japan.jp/en/articles/12779"],
+                    "notes": "Terminology checked 2026-10-10; clothing, beauty, ages, and worlds are original CAS interpretations, not community rules."
+                  },
+                  "categories": ["Formal"],
+                  "tags": ["romantic", "luxury", "japanese-streetwear"],
+                  "weight": 1,
+                  "commonness": 0.25,
+                  "adultOnly": false,
+                  "themes": [],
+                  "allowedAges": [
+                    "child",
+                    "teen",
+                    "young-adult",
+                    "adult",
+                    "elder"
+                  ],
+                  "aliases": ["Hime Gal"],
+                  "styleType": "established",
+                  "rarity": "rare",
+                  "category": "Formal",
+                  "worldAssociations": [
+                    "library:world:forgotten-hollow",
+                    "library:world:del-sol-valley",
+                    "library:world:tartosa",
+                    "library:world:ciudad-enamorada",
+                    "library:world:ondarion"
+                  ],
+                  "suggestedAges": [
+                    "child",
+                    "teen",
+                    "young-adult",
+                    "adult",
+                    "elder"
+                  ],
+                  "casSuggestions": [
+                    "Ruffled coordinated dress",
+                    "Lace-trimmed cardigan"
+                  ],
+                  "hairSuggestions": ["Large curled updo"],
+                  "makeupSuggestions": ["Soft pink glam makeup"],
+                  "accessories": ["Bow accessories"],
+                  "wildcard": false,
+                  "culturalContext": "A Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement."
+                },
+                "neighborhood": {
+                  "id": "starter:neighborhood:arcade:1",
+                  "name": "Neon Square",
+                  "description": "A fictional neighborhood for your custom save.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": [],
+                  "tags": [],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "worldId": "starter:world:arcade"
+                },
+                "seed": "161ddb60-1141-4cda-89fc-c2154d56d9cd",
+                "iteration": 0,
+                "generatedTitle": "The after-hours photo editors"
+              },
+              "text": "The after-hours photo editors\n\nTownieverse · authored household concept (roleplay)\n\nSeed: 161ddb60-1141-4cda-89fc-c2154d56d9cd · Roll 1\n\nWorld: Silver Arcade (fictional save concept)\n\nNeighborhood: Neon Square\n\nLot: No verified or custom lot selected\n\nAdult Only · 2 Sims\n\nFinances: modest\n\nHome: Shared rental\n\nAdult housemates edit photography projects late at night while separating paid work from collaborative experiments.\n\nAdult housemate · Adult (authored character concept)\nTraits: Gloomy (official), Family-Oriented (official), Restless maker (roleplay)\nAspiration: Bestselling Author (official)\nOccupation: Babysitter (official)\nPersonality: A misunderstanding about a family story taught this Sim to distinguish what they remember from what they merely heard.\nHobbies: Journaling, Recording interviews\nLikes: Journaling, Recording interviews\nDislikes: \nGoal: Preserve one story with permission.\nFlaw: Interrupts stories to correct small details\n\nAdult housemate · Young Adult (authored character concept)\nTraits: Art Lover (official), Bro (official), Hates Children (official)\nAspiration: Angling Ace (official)\nOccupation: Athlete (official)\nPersonality: Helping create welcoming queer community spaces taught this Sim to balance celebration with practical access and sustainable volunteering.\nHobbies: Event planning, Designing flyers\nLikes: Event planning, Designing flyers\nDislikes: \nGoal: Share organizing responsibility with a team.\nFlaw: Treats every request as urgent\n\nAdult housemate → Adult housemate: Roommates\n\nHime Gyaru\nFormal · authored styling guide\nPrincess-inspired glam with ornate coordination and lavish beauty styling.\n• Ruffled coordinated dress\n• Lace-trimmed cardigan\nHair: Large curled updo\nOptional makeup: Soft pink glam makeup\nAccessory: Bow accessories\nA Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement.",
+              "members": [
+                {
+                  "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0",
+                  "name": "Adult housemate"
+                },
+                {
+                  "id": "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1",
+                  "name": "Adult housemate"
+                }
+              ]
+            },
+            "world": "Silver Arcade",
+            "notes": "",
+            "tags": [],
+            "status": "Idea",
+            "memberProgress": {
+              "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:0": "Placed in World",
+              "member:library:household:the-after-hours-photo-editors:library:household:the-after-hours-photo-editors:slot:1": "Placed in World"
+            },
+            "favorite": false,
+            "createdAt": "2026-10-11T00:34:10.057Z",
+            "modifiedAt": "2026-10-11T00:35:02.501Z"
+          }
+        }
+      ],
+      "customLots": [
+        {
+          "id": "custom-plan:4897342a-48d1-4653-8942-a3700bc7db0e",
+          "name": "Photo Studio Annex",
+          "worldId": "library:world:moonwood-mill",
+          "neighborhoodId": "library:neighborhood:moonwood-mill:moonwood-mill",
+          "lotType": "Residential",
+          "description": "A user-authored studio build; dimensions intentionally unspecified."
+        }
+      ],
+      "worldNotes": {
+        "library:world:moonwood-mill": "Add an elder household near the forest."
+      },
+      "neighborhoodNotes": {}
+    }
+  ]
+}

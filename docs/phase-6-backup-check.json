@@ -1,0 +1,505 @@
+{
+  "format": "townieverse-casting-board",
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-10T17:08:52.798Z",
+  "entries": [
+    {
+      "id": "32a880c2-b828-4605-9f49-f03b5044ee87",
+      "type": "household",
+      "title": "The Houseplant Housemates",
+      "content": {
+        "snapshot": {
+          "world": {
+            "id": "starter:world:harbor",
+            "name": "Rosewater Harbor",
+            "description": "A fictional coastal save concept: weathered homes, community gardens, and second chances.",
+            "origin": "roleplay",
+            "requiredPacks": [],
+            "verification": {
+              "status": "not-applicable",
+              "sources": []
+            },
+            "categories": [],
+            "tags": ["coastal", "casual"],
+            "weight": 1,
+            "commonness": 0.7,
+            "adultOnly": false,
+            "themes": [],
+            "worldType": "residential",
+            "neighborhoods": [
+              {
+                "id": "starter:neighborhood:harbor:0",
+                "name": "Boardwalk Gardens",
+                "description": "A fictional neighborhood for your custom save.",
+                "origin": "roleplay",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "not-applicable",
+                  "sources": []
+                },
+                "categories": [],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "worldId": "starter:world:harbor"
+              },
+              {
+                "id": "starter:neighborhood:harbor:1",
+                "name": "Old Ferry Row",
+                "description": "A fictional neighborhood for your custom save.",
+                "origin": "roleplay",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "not-applicable",
+                  "sources": []
+                },
+                "categories": [],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "worldId": "starter:world:harbor"
+              }
+            ],
+            "lots": []
+          },
+          "household": {
+            "id": "household:library:household:the-houseplant-custody-chart",
+            "promptId": "library:household:the-houseplant-custody-chart",
+            "category": "roommates",
+            "members": [
+              {
+                "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:0",
+                "slotId": "library:household:the-houseplant-custody-chart:slot:0",
+                "name": "Housemate",
+                "age": "young-adult",
+                "occult": "human",
+                "requiredPacks": []
+              },
+              {
+                "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:1",
+                "slotId": "library:household:the-houseplant-custody-chart:slot:1",
+                "name": "Housemate",
+                "age": "adult",
+                "occult": "human",
+                "requiredPacks": []
+              }
+            ],
+            "dynamics": [
+              {
+                "id": "dynamic:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:tie:0",
+                "fromId": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:0",
+                "toId": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:1",
+                "kind": "roommates"
+              }
+            ],
+            "financialSituation": "comfortable",
+            "livingArrangement": "Apartment",
+            "backstory": "Housemates with different plant-care habits create a watering chart after one tries to rescue every wilting leaf at once.",
+            "adultOnly": false,
+            "storylines": []
+          },
+          "sims": [
+            {
+              "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:0",
+              "name": "Housemate",
+              "age": "young-adult",
+              "aspiration": {
+                "id": "library:aspiration:painter-extraordinaire",
+                "name": "Painter Extraordinaire",
+                "description": "Official base-game aspiration: Painter Extraordinaire.",
+                "origin": "official",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "verified",
+                  "sources": [
+                    "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf"
+                  ],
+                  "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                },
+                "categories": ["aspiration"],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                "traitRequirements": []
+              },
+              "personality": {
+                "profile": {
+                  "id": "library:background:the-kitchen-table-designer",
+                  "name": "The kitchen-table designer",
+                  "description": "Sketching ideas at a small table taught this Sim that useful design can begin without expensive equipment.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": ["background"],
+                  "tags": ["adult"],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "allowedAges": ["young-adult", "adult", "elder"],
+                  "hobbies": ["Design sketching", "Model making"],
+                  "likes": ["Design sketching", "Model making"],
+                  "dislikes": [],
+                  "personalGoal": "Test a small practical design.",
+                  "flaw": "Polishes drawings before testing usefulness",
+                  "personalitySuggestions": ["Inventive", "Practical"],
+                  "careerSuggestions": ["Design"]
+                },
+                "traits": [
+                  {
+                    "id": "starter:trait:1",
+                    "name": "Restless maker",
+                    "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                    "origin": "roleplay",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "not-applicable",
+                      "sources": []
+                    },
+                    "categories": [],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": [
+                      "child",
+                      "teen",
+                      "young-adult",
+                      "adult",
+                      "elder"
+                    ],
+                    "conflictsWith": []
+                  },
+                  {
+                    "id": "starter:trait:3",
+                    "name": "Generous neighbor",
+                    "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                    "origin": "roleplay",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "not-applicable",
+                      "sources": []
+                    },
+                    "categories": [],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": [
+                      "child",
+                      "teen",
+                      "young-adult",
+                      "adult",
+                      "elder"
+                    ],
+                    "conflictsWith": []
+                  },
+                  {
+                    "id": "starter:trait:5",
+                    "name": "Careful planner",
+                    "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                    "origin": "roleplay",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "not-applicable",
+                      "sources": []
+                    },
+                    "categories": [],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": [
+                      "child",
+                      "teen",
+                      "young-adult",
+                      "adult",
+                      "elder"
+                    ],
+                    "conflictsWith": []
+                  }
+                ],
+                "hobbies": ["Design sketching", "Model making"],
+                "likes": ["Design sketching", "Model making"],
+                "dislikes": [],
+                "personalGoal": "Test a small practical design.",
+                "flaw": "Polishes drawings before testing usefulness"
+              },
+              "career": {
+                "id": "library:career:astronaut",
+                "name": "Astronaut",
+                "description": "Official career: Astronaut.",
+                "origin": "official",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "verified",
+                  "sources": [
+                    "https://help.ea.com/en/articles/the-sims/the-sims-4/the-sims-4-astronaut-career/"
+                  ],
+                  "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                },
+                "categories": ["career"],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "allowedAges": ["young-adult", "adult", "elder"],
+                "kind": "career"
+              },
+              "storylines": []
+            },
+            {
+              "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:1",
+              "name": "Housemate",
+              "age": "adult",
+              "aspiration": {
+                "id": "library:aspiration:bestselling-author",
+                "name": "Bestselling Author",
+                "description": "Official base-game aspiration: Bestselling Author.",
+                "origin": "official",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "verified",
+                  "sources": [
+                    "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf"
+                  ],
+                  "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                },
+                "categories": ["aspiration"],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                "traitRequirements": []
+              },
+              "personality": {
+                "profile": {
+                  "id": "library:background:the-former-assistant-librarian",
+                  "name": "The former assistant librarian",
+                  "description": "Helping people locate books made this Sim curious about unfamiliar interests and patient with imperfect questions.",
+                  "origin": "roleplay",
+                  "requiredPacks": [],
+                  "verification": {
+                    "status": "not-applicable",
+                    "sources": []
+                  },
+                  "categories": ["background"],
+                  "tags": ["adult"],
+                  "weight": 1,
+                  "commonness": 0.7,
+                  "adultOnly": false,
+                  "themes": [],
+                  "allowedAges": ["young-adult", "adult", "elder"],
+                  "hobbies": ["Reading", "Cataloging"],
+                  "likes": ["Reading", "Cataloging"],
+                  "dislikes": [],
+                  "personalGoal": "Organize a useful lending shelf.",
+                  "flaw": "Reorganizes without consulting users",
+                  "personalitySuggestions": ["Curious", "Methodical"],
+                  "careerSuggestions": ["Archival work"]
+                },
+                "traits": [
+                  {
+                    "id": "library:trait:art-lover",
+                    "name": "Art Lover",
+                    "description": "Official base-game personality trait: Art Lover.",
+                    "origin": "official",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "verified",
+                      "sources": [
+                        "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf",
+                        "https://sims.fandom.com/wiki/Trait_conflict"
+                      ],
+                      "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                    },
+                    "categories": ["personality-trait"],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                    "conflictsWith": []
+                  },
+                  {
+                    "id": "library:trait:music-lover",
+                    "name": "Music Lover",
+                    "description": "Official base-game personality trait: Music Lover.",
+                    "origin": "official",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "verified",
+                      "sources": [
+                        "https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_Players_Guide.pdf",
+                        "https://sims.fandom.com/wiki/Trait_conflict"
+                      ],
+                      "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                    },
+                    "categories": ["personality-trait"],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": ["teen", "young-adult", "adult", "elder"],
+                    "conflictsWith": []
+                  },
+                  {
+                    "id": "starter:trait:2",
+                    "name": "Quiet observer",
+                    "description": "Fictional roleplay personality suggestion; not an official CAS trait.",
+                    "origin": "roleplay",
+                    "requiredPacks": [],
+                    "verification": {
+                      "status": "not-applicable",
+                      "sources": []
+                    },
+                    "categories": [],
+                    "tags": [],
+                    "weight": 1,
+                    "commonness": 0.7,
+                    "adultOnly": false,
+                    "themes": [],
+                    "allowedAges": [
+                      "child",
+                      "teen",
+                      "young-adult",
+                      "adult",
+                      "elder"
+                    ],
+                    "conflictsWith": []
+                  }
+                ],
+                "hobbies": ["Reading", "Cataloging"],
+                "likes": ["Reading", "Cataloging"],
+                "dislikes": [],
+                "personalGoal": "Organize a useful lending shelf.",
+                "flaw": "Reorganizes without consulting users"
+              },
+              "career": {
+                "id": "library:career:style-influencer",
+                "name": "Style Influencer",
+                "description": "Official career: Style Influencer.",
+                "origin": "official",
+                "requiredPacks": [],
+                "verification": {
+                  "status": "verified",
+                  "sources": [
+                    "https://help.ea.com/en/articles/the-sims/the-sims-4/style-influencer-career/"
+                  ],
+                  "notes": "Checked 2026-10-10. Verification applies to names and game dependencies; creative associations are authored."
+                },
+                "categories": ["career"],
+                "tags": [],
+                "weight": 1,
+                "commonness": 0.7,
+                "adultOnly": false,
+                "themes": [],
+                "allowedAges": ["young-adult", "adult", "elder"],
+                "kind": "career"
+              },
+              "storylines": []
+            }
+          ],
+          "aesthetic": {
+            "id": "library:aesthetic:mori-kei",
+            "name": "Mori Kei",
+            "description": "Roomy natural-looking layers with gentle textures and a woodland mood.",
+            "origin": "roleplay",
+            "requiredPacks": [],
+            "verification": {
+              "status": "verified",
+              "sources": [
+                "https://the-comm.online/blog/the-history-of-girly-styles-dolly-kei-cult-party-kei-and-mori-girl-part-one/"
+              ],
+              "notes": "Terminology checked 2026-10-10; clothing, beauty, ages, and worlds are original CAS interpretations, not community rules."
+            },
+            "categories": ["Everyday"],
+            "tags": ["mori", "natural", "forest", "japanese-streetwear"],
+            "weight": 3,
+            "commonness": 0.85,
+            "adultOnly": false,
+            "themes": [],
+            "allowedAges": ["child", "teen", "young-adult", "adult", "elder"],
+            "aliases": ["Mori Girl", "Forest Girl"],
+            "category": "Everyday",
+            "worldAssociations": [
+              "library:world:glimmerbrook",
+              "library:world:henford-on-bagley",
+              "library:world:moonwood-mill",
+              "library:world:innisgreen",
+              "library:world:granite-falls",
+              "library:world:selvadorada"
+            ],
+            "suggestedAges": ["child", "teen", "young-adult", "adult", "elder"],
+            "casSuggestions": ["Loose linen tunic", "Layered long skirt"],
+            "hairSuggestions": ["Relaxed braid"],
+            "makeupSuggestions": ["Warm understated blush"],
+            "accessories": ["Woven bag"],
+            "wildcard": false,
+            "culturalContext": "A Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement."
+          },
+          "neighborhood": {
+            "id": "starter:neighborhood:harbor:0",
+            "name": "Boardwalk Gardens",
+            "description": "A fictional neighborhood for your custom save.",
+            "origin": "roleplay",
+            "requiredPacks": [],
+            "verification": {
+              "status": "not-applicable",
+              "sources": []
+            },
+            "categories": [],
+            "tags": [],
+            "weight": 1,
+            "commonness": 0.7,
+            "adultOnly": false,
+            "themes": [],
+            "worldId": "starter:world:harbor"
+          },
+          "seed": "a9e5ed7f-fa30-488f-9041-92bed8f231d3",
+          "iteration": 0
+        },
+        "text": "Townieverse · authored household concept (roleplay)\n\nSeed: a9e5ed7f-fa30-488f-9041-92bed8f231d3 · Roll 1\n\nWorld: Rosewater Harbor (fictional save concept)\n\nNeighborhood: Boardwalk Gardens\n\nLot: No verified or custom lot selected\n\nRoommates · 2 Sims\n\nFinances: comfortable\n\nHome: Apartment\n\nHousemates with different plant-care habits create a watering chart after one tries to rescue every wilting leaf at once.\n\nHousemate · Young Adult (authored character concept)\nTraits: Restless maker (roleplay), Generous neighbor (roleplay), Careful planner (roleplay)\nAspiration: Painter Extraordinaire (official)\nOccupation: Astronaut (official)\nPersonality: Sketching ideas at a small table taught this Sim that useful design can begin without expensive equipment.\nHobbies: Design sketching, Model making\nLikes: Design sketching, Model making\nDislikes: \nGoal: Test a small practical design.\nFlaw: Polishes drawings before testing usefulness\n\nHousemate · Adult (authored character concept)\nTraits: Art Lover (official), Music Lover (official), Quiet observer (roleplay)\nAspiration: Bestselling Author (official)\nOccupation: Style Influencer (official)\nPersonality: Helping people locate books made this Sim curious about unfamiliar interests and patient with imperfect questions.\nHobbies: Reading, Cataloging\nLikes: Reading, Cataloging\nDislikes: \nGoal: Organize a useful lending shelf.\nFlaw: Reorganizes without consulting users\n\nHousemate → Housemate: Roommates\n\nMori Kei\nEveryday · authored styling guide\nRoomy natural-looking layers with gentle textures and a woodland mood.\n• Loose linen tunic\n• Layered long skirt\nHair: Relaxed braid\nOptional makeup: Warm understated blush\nAccessory: Woven bag\nA Japanese street-fashion or music-related reference, not traditional ethnic or religious dress. CAS guidance is adaptable to any gender or ethnicity; skin tone is never a costume requirement.",
+        "members": [
+          {
+            "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:0",
+            "name": "Housemate"
+          },
+          {
+            "id": "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:1",
+            "name": "Housemate"
+          }
+        ]
+      },
+      "world": "Rosewater Harbor",
+      "notes": "Build a sunny kitchen and give each roommate a plant shelf.",
+      "tags": ["AltTownies", "CreatedInCAS"],
+      "status": "Planning",
+      "memberProgress": {
+        "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:0": "Created in CAS",
+        "member:library:household:the-houseplant-custody-chart:library:household:the-houseplant-custody-chart:slot:1": "Creating in CAS"
+      },
+      "favorite": true,
+      "createdAt": "2026-10-10T17:07:39.017Z",
+      "modifiedAt": "2026-10-10T17:08:39.333Z"
+    }
+  ]
+}

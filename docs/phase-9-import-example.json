@@ -1,0 +1,94 @@
+{
+  "format": "townieverse-relationship-web",
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "phase9-example-profile",
+      "name": "Relationship import example",
+      "web": {
+        "schemaVersion": 1,
+        "nodes": [
+          {
+            "id": "example-alex",
+            "label": "Alex",
+            "householdId": "",
+            "memberId": "",
+            "householdName": "",
+            "aesthetic": "",
+            "age": "adult",
+            "worldId": "",
+            "color": "",
+            "icon": "",
+            "favorite": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "example-blair",
+            "label": "Blair",
+            "householdId": "",
+            "memberId": "",
+            "householdName": "",
+            "aesthetic": "",
+            "age": "adult",
+            "worldId": "",
+            "color": "",
+            "icon": "",
+            "favorite": false,
+            "x": 320,
+            "y": 0
+          },
+          {
+            "id": "example-casey",
+            "label": "Casey",
+            "householdId": "",
+            "memberId": "",
+            "householdName": "",
+            "aesthetic": "",
+            "age": "adult",
+            "worldId": "",
+            "color": "",
+            "icon": "",
+            "favorite": false,
+            "x": 160,
+            "y": 180
+          }
+        ],
+        "edges": [
+          {
+            "id": "example-friendship",
+            "from": "example-alex",
+            "to": "example-blair",
+            "type": "friends",
+            "label": "Friends",
+            "description": "Example relationship for checking imports.",
+            "notes": "",
+            "status": "active",
+            "strength": 3,
+            "startDate": "",
+            "tags": [],
+            "customGroup": "Other",
+            "adultConsent": false
+          }
+        ],
+        "filters": {
+          "search": "",
+          "householdId": "",
+          "worldId": "",
+          "type": "",
+          "status": "",
+          "simId": "",
+          "favorites": false,
+          "focusId": ""
+        },
+        "view": {
+          "zoom": 1,
+          "panX": 20,
+          "panY": 20,
+          "simplified": false,
+          "listOnly": false
+        }
+      }
+    }
+  ]
+}
