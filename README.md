@@ -83,9 +83,9 @@ scripts/                 Content audit CLI
 
 ## Not implemented yet
 
-Exhaustive fashion/game/location coverage and offline installation remain future work. The app has no service worker and is not an installable offline PWA. There is no backend, cloud synchronization or account requirement. Vercel deployment is prepared but awaits approval.
+Exhaustive fashion/game/location coverage and offline installation remain future work. The app has no service worker and is not an installable offline PWA. There is no backend, cloud synchronization or account requirement. Publishing is approved; current hosting status is recorded in [the publication record](docs/PUBLIC_BETA.md).
 
-Phases 6–9 were approved. Phase 10 prepares deployment; publishing still requires approval.
+Phases 6–10 and public beta publishing were approved.
 
 ## Implemented in Phase 3
 
@@ -276,7 +276,7 @@ Phase 9 was subsequently approved.
 - Duplicate, known-age, ancestry, family-romance and contradictory-state validation; explicit adult consent for romance. Family ties never generate romance automatically.
 - Persisted per-profile filters/view preferences, versioned web-only backups and relationship data in population backups. Validated preview/merge, confirmed replacement and existing corruption/quota/stale-tab protections.
 
-See [Relationship Web documentation](docs/RELATIONSHIP_WEB.md) for controls, data model, validation, migration, backup compatibility, performance limits and the complete file manifest. No dependency or backend was added. Phase 10 requires explicit approval.
+See [Relationship Web documentation](docs/RELATIONSHIP_WEB.md) for controls, data model, validation, migration, backup compatibility, performance limits and the complete file manifest. No dependency or backend was added. Phase 10 and public beta publishing were subsequently approved.
 
 ### Phase 9 verification
 

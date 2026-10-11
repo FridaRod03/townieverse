@@ -12,6 +12,8 @@ Publishing was explicitly approved on October 10, 2026. This record supplements 
 
 ## Publication status
 
-GitHub repository creation, push and Vercel deployment are in progress. The verified production URL and live checks will be recorded here once deployment completes. No working website URL is claimed before verification.
+The public repository is [FridaRod03/townieverse](https://github.com/FridaRod03/townieverse), created without initializing unrelated files. Initial commit `5769176` was pushed to `main` successfully. The repository has no exposed personal author email.
+
+Vercel deployment awaits account authorization. The verified production URL and live checks will be recorded here once deployment completes. No working website URL is claimed before verification.
 
 The application is static and requires no backend, cloud database or environment variables. Vercel settings: Vite, Node 24.x, `npm install`, `npm run build`, output `dist`, production branch `main`. Existing local saves require manual JSON backup transfer as described in [the deployment guide](DEPLOYMENT.md#moving-localhost-saves-to-the-public-site).
